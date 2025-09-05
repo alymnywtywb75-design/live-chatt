@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دردشة مباشرة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>الدردشة المباشرة</h2>
+
+  <div class="setup">
+    <label>أدخل الرقم الخاص بالمستخدم:</label>
+    <input type="text" id="userInput" placeholder="أدخل الرقم">
+    <button onclick="startChat()">ابدأ</button>
+  </div>
+
+  <div class="chat-container">
+    <div id="messages"></div>
+    <input type="text" id="messageInput" placeholder="اكتب رسالتك...">
+    <button onclick="sendMessage()">إرسال</button>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
